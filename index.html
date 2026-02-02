@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TempVortex | Secure Disposable Email</title>
   <meta name="description" content="Get a temporary email address instantly. Protect your privacy, avoid spam, and stay secure with TempVortex.">
+  
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; connect-src 'self' https://api.mail.tm https://www.1secmail.com https://api.guerrillamail.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
+  
   <script src="https://cdn.tailwindcss.com"></script>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -26,6 +29,7 @@
       },
     }
   </script>
+  
   <style>
     body {
       transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -73,23 +77,10 @@
       animation: subtle-float 6s ease-in-out infinite;
     }
   </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@19.0.0",
-    "react-dom": "https://esm.sh/react-dom@19.0.0",
-    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
-    "lucide-react": "https://esm.sh/lucide-react@0.463.0?deps=react@19.0.0",
-    "dompurify": "https://esm.sh/dompurify@3.0.6",
-    "sonner": "https://esm.sh/sonner@1.4.0?deps=react@19.0.0",
-    "html2pdf.js": "https://esm.sh/html2pdf.js@0.10.1",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/"
-  }
-}
-</script>
 </head>
 <body class="light bg-[#f8fafc] text-zinc-900 font-sans">
   <div id="root"></div>
+  
+  <script type="module" src="index.tsx"></script>
 </body>
 </html>
