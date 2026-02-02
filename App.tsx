@@ -384,7 +384,7 @@ const App: React.FC = () => {
             <button onClick={() => setActiveModal('privacy')} className="hover:text-indigo-500 transition-colors">Privacy</button>
             <button onClick={() => setActiveModal('terms')} className="hover:text-indigo-500 transition-colors">Terms</button>
           </div>
-          <div className="text-[10px] text-zinc-400 font-bold uppercase tracking-widest">© 2024 TempVortex Labs</div>
+          <div className="text-[10px] text-zinc-400 font-bold uppercase tracking-widest">© 2026 TempVortex Labs</div>
         </div>
       </footer>
     </div>
